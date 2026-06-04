@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1774950606054,
+    "name": "sanskar",
+    "email": "sanskargola2005@gmail.com",
+    "password": "$2a$10$zf7zXwiJPnlTHfn6ngHSYOhRVWfvTRB.AsQTyiXZl6TbxOfi7FjmK"
+  },
+  {
+    "id": 1774951380231,
+    "name": "rohit",
+    "email": "rohitpankaj123@gmail.com",
+    "password": "$2a$10$o4dgaz9gPlk3cSg7NuGGiu3N9MJ0q1EJsIQ/QNnlXX4tb72Oi1bSK"
+  },
+  {
+    "id": 1775289748273,
+    "name": "vansh",
+    "email": "vansh20001vansh@gmail.com",
+    "password": "$2a$10$w0H2h96LdM7DXXhzWA2cleynul0EFbmrmZ6qaG5CLwF0KTtL/k5RG"
+  },
+  {
+    "id": 1775722482205,
+    "name": "sahil",
+    "email": "sahil1234@gmail.com",
+    "password": "$2a$10$47LlaKrCOcvA9TkjueTkseqyqa12FQhBD46JlNmDRLlY84vr2fnPi"
+  }
+]

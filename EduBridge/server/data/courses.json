@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "title": "Programming Basics",
+    "description": "Learn the fundamentals of programming with hands-on projects and real-world examples.",
+    "category": "Programming",
+    "difficulty": "Beginner",
+    "duration": 4,
+    "lessons": 12,
+    "students": 350,
+    "rating": 4.8,
+    "instructor": "John Smith",
+    "tags": ["JavaScript", "Python", "Coding"],
+    "content": "Introduction to coding...",
+    "quiz": [
+      { "question": "What is a variable?", "options": ["A container for data", "A function", "A loop"], "answer": "A container for data" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Aptitude Test Preparation",
+    "description": "Master quantitative reasoning, logical thinking, and problem-solving skills for competitive exams.",
+    "category": "Aptitude",
+    "difficulty": "Intermediate",
+    "duration": 6,
+    "lessons": 20,
+    "students": 280,
+    "rating": 4.6,
+    "instructor": "Sarah Johnson",
+    "tags": ["Math", "Logic", "Reasoning"],
+    "content": "Math and logic problems...",
+    "quiz": [
+      { "question": "2+2=?", "options": ["3", "4", "5"], "answer": "4" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "School Mathematics",
+    "description": "Comprehensive mathematics course covering algebra, geometry, and trigonometry for school students.",
+    "category": "Mathematics",
+    "difficulty": "Beginner",
+    "duration": 5,
+    "lessons": 15,
+    "students": 420,
+    "rating": 4.7,
+    "instructor": "Michael Brown",
+    "tags": ["Algebra", "Geometry", "Trigonometry"],
+    "content": "Algebra, geometry...",
+    "quiz": [
+      { "question": "What is 5*5?", "options": ["20", "25", "30"], "answer": "25" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Web Development Fundamentals",
+    "description": "Build responsive websites using HTML, CSS, and JavaScript. Includes real-world projects.",
+    "category": "Web Development",
+    "difficulty": "Beginner",
+    "duration": 8,
+    "lessons": 24,
+    "students": 510,
+    "rating": 4.9,
+    "instructor": "Emma Davis",
+    "tags": ["HTML", "CSS", "JavaScript", "Web Dev"],
+    "content": "HTML, CSS, and JavaScript basics..."
+  },
+  {
+    "id": 5,
+    "title": "Data Science with Python",
+    "description": "Learn data analysis, visualization, and machine learning using Python libraries like pandas and scikit-learn.",
+    "category": "Data Science",
+    "difficulty": "Advanced",
+    "duration": 10,
+    "lessons": 30,
+    "students": 220,
+    "rating": 4.8,
+    "instructor": "Dr. Robert Wilson",
+    "tags": ["Python", "Data Science", "Machine Learning"],
+    "content": "Data science and ML fundamentals..."
+  },
+  {
+    "id": 6,
+    "title": "UI/UX Design Principles",
+    "description": "Master design thinking, user research, prototyping, and modern design tools like Figma.",
+    "category": "Design",
+    "difficulty": "Intermediate",
+    "duration": 7,
+    "lessons": 18,
+    "students": 160,
+    "rating": 4.7,
+    "instructor": "Lisa Chen",
+    "tags": ["Design", "Figma", "UX/UI"],
+    "content": "Design and UX principles..."
+  }
+]

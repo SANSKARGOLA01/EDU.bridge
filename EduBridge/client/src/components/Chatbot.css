@@ -1,0 +1,87 @@
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  max-height: 480px;
+  border: 1px solid #334155;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 200;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.4);
+}
+
+.chatbot::before {
+  content: 'EduBridge Chatbot';
+  font-weight: 700;
+  background: #0ea5e9;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.message {
+  margin: 0;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.message.user {
+  background: #2563eb;
+  color: white;
+  align-self: flex-end;
+  max-width: 92%;
+}
+
+.message.bot {
+  background: #1e293b;
+  color: #dbeafe;
+  align-self: flex-start;
+  max-width: 92%;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #334155;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  margin-right: 8px;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.chat-input button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #0ea5e9;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .chatbot {
+    width: min(90vw, 360px);
+    bottom: 12px;
+    right: 12px;
+  }
+}

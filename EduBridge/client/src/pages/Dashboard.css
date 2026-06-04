@@ -1,0 +1,82 @@
+.dashboard {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.profile {
+  margin-bottom: 40px;
+  padding: 24px;
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-soft) 100%);
+  box-shadow: 0 6px 20px rgba(255, 107, 53, 0.15);
+}
+
+.profile h3 {
+  color: var(--primary);
+  margin-top: 0;
+}
+
+.profile p {
+  color: var(--text-muted);
+  margin: 8px 0;
+}
+
+.enrolled-courses {
+  margin-top: 30px;
+}
+
+.enrolled-courses h3 {
+  color: var(--accent);
+  text-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+.course-card {
+  border: 2px solid var(--accent);
+  padding: 20px;
+  margin: 16px 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-soft) 100%);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateX(6px);
+  box-shadow: 0 8px 28px rgba(0, 212, 255, 0.3);
+}
+
+.course-card h4 {
+  color: var(--primary);
+  margin-top: 0;
+}
+
+.course-card p {
+  color: var(--text-muted);
+}
+
+.progress-bar {
+  background: var(--surface-soft);
+  height: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--surface-hover);
+  margin-top: 10px;
+}
+
+.progress {
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.5s ease;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.4);
+}

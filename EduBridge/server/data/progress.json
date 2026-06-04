@@ -1,0 +1,52 @@
+[
+  {
+    "userId": 1774950606054,
+    "courseId": 1,
+    "completed": 0
+  },
+  {
+    "userId": 1774950606054,
+    "courseId": 3,
+    "completed": 0
+  },
+  {
+    "userId": 1774951380231,
+    "courseId": 4,
+    "completed": 0
+  },
+  {
+    "userId": 1774951380231,
+    "courseId": 5,
+    "completed": 0
+  },
+  {
+    "userId": 1774951380231,
+    "courseId": 2,
+    "completed": 0
+  },
+  {
+    "userId": 1774951380231,
+    "courseId": 1,
+    "completed": 0
+  },
+  {
+    "userId": 1774951380231,
+    "courseId": 3,
+    "completed": 0
+  },
+  {
+    "userId": 1775289748273,
+    "courseId": 1,
+    "completed": 0
+  },
+  {
+    "userId": 1775722482205,
+    "courseId": 2,
+    "completed": 0
+  },
+  {
+    "userId": 1775722482205,
+    "courseId": 6,
+    "completed": 0
+  }
+]
